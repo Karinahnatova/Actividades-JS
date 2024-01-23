@@ -1,0 +1,64 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.pt-sans narrow-regular {
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+
+h1 {
+    font-family: "Bebas Neue";
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: "Bebas Neue";
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+
+}
+
+p {
+    font-family: "PT Sans Narrow";
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 20%;
+}
+
+li {
+    padding: 1rem;
+}
+
+li a{
+    color: black;
+    font-family: "Bebas Neue";
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    color: rgb(64, 161, 131);
+}
